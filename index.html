@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="m3.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Babk.svg" alt="" class="img-bank">
+        </div>
+        <nav class="wrapper" >
+            <div class="menu-items">БАНК</div>
+            <div class="menu-items">БИЗНЕС</div>
+            <div class="menu-items">ИНВЕСТИЦИИ</div>
+            <div class="menu-items">СТРАХОВАНИЕ</div>
+            <div class="menu-items">МОБАЙЛ</div>
+            <div class="menu-items">ПУТЕШЕСТВИЯ</div>
+            <div class="menu-items">РАЗВЛЕЧЕНИЯ</div>
+        </nav>
+        <div class="btn">
+        <div class="button-to-come-in">
+            <span class="button-text">ВОЙТИ</span>
+        </div>
+    </div>
+    </header>
+
+    <div class="wrapper">
+        <h1>Конвертер валют онлайн</h1>
+        <div class="converter">
+            <div class="have">
+                <div class="text">У меня есть</div>
+                <div class="buttons">
+                    <label class="button">
+                        <input type="radio" type="text " class="button-hidden" name="currency" value="RUB" checked>
+                        <div class="currency-button left">RUB</div>
+                    </label>
+                    <label class="button">
+                        <input type="radio" type="text " class="button-hidden" name="currency" value="USD">
+                        <div class="currency-button">USD</div>
+                    </label>
+                    <label class="button">
+                        <input type="radio" type="text " class="button-hidden" name="currency" value="EUR">
+                        <div class="currency-button">EUR</div>
+                    </label>
+                    <label class="button">
+                        <input type="radio" type="text " class="button-hidden" name="currency" value="GBP">
+                        <div class="currency-button right">GBP</div>
+                    </label>
+                </div>
+                <div class="sum">
+                    <div class="calculation">
+                        <input type="text" class="text-sum-have" value="1">
+                    </div>
+                    <div class="rate">
+                        <input type="text" class="rate-have">
+                    </div>
+                </div>
+            </div>
+            <div class="purchase">
+                <div class="text">Хочу приобрести</div>
+                <div class="buttons">
+                    <label class="button">
+                        <input type="radio" type="text " class="button-hidden" name="currency-purchase" value="RUB">
+                        <div class="currency-button left">RUB</div>
+                    </label>
+                    <label class="button">
+                        <input type="radio" type="text " class="button-hidden" name="currency-purchase" value="USD" checked>
+                        <div class="currency-button">USD</div>
+                    </label>
+                    <label class="button">
+                        <input type="radio" type="text " class="button-hidden" name="currency-purchase" value="EUR">
+                        <div class="currency-button">EUR</div>
+                    </label>
+                    <label class="button">
+                        <input type="radio" type="text " class="button-hidden" name="currency-purchase" value="GBP">
+                        <div class="currency-button right">GBP</div>
+                    </label>
+                </div>
+                <div class="sum">
+                    <div class="calculation">
+                        <input type="text" class="text-sum-purchase">
+                    </div>
+                    <div class="rate">
+                        <input type="text" class="rate-purchase">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="m3.js"></script>
+</body>
+
+</html>
+
+
+<!-- 
+{motd: Object, success: true, base: "USD", date: "2022-07-08", rates: Object}
+motd: Object
+success: true
+base: "USD"
+date: "2022-07-08"
+rates: Object
+RUB: 62.078187 -->

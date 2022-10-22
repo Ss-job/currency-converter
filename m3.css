@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background: #F5F5F6;
+    align-items: center;
+    padding: 0 100px;
+    margin-bottom: 60px;
+}
+
+.logo {
+    max-width: 89px;
+    height: 23px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.06em;
+    max-width: 650px;
+    margin: 0 auto;
+
+
+}
+
+.button-to-come-in {
+    display: flex;
+    align-items: center;
+    width: 58px;
+    height: 33px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.button-text {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-items {
+    color: #959BA4;
+    padding-right: 5px;
+}
+
+.wrapper {
+    max-width: 650px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 5px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.converter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text {
+    color: #9F9F9F;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.currency-button {
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #C6C6C6;
+    border: 1px solid #E5E5E5;
+    padding: 5px 20px;
+}
+
+.button-hidden:checked~.currency-button {
+    background: #833AE0;
+
+
+
+}
+
+.left {
+    border-radius: 3px 0px 0px 3px;
+}
+
+.right {
+    border-radius: 0px 3px 3px 0px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.sum {
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    height: 100px;
+    max-width: 260px;
+}
+
+.calculation {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.rate {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #C6C6C6;
+}
+
+.text-sum-purchase,
+.rate-purchase,
+.text-sum-have,
+.rate-have {
+    outline: none;
+    border: none;
+}
+.rate-purchase,
+.rate-have {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    color: #C6C6C6;
+}
+.text-sum-purchase,
+.text-sum-have {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
